@@ -17,7 +17,6 @@ export default function SnippetCreatePage() {
         code: code
       }
     })
-    console.log(snippet)
 
     // (one option) - user is redirected to homepage after form is successfully submitted
     redirect("/")
